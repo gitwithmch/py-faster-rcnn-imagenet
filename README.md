@@ -1,4 +1,4 @@
-Hope this tutorial will help you a lot! and I appreciate that you can **star** it!   
+
 # Training Faster RCNN on Imagenet
 
 ## preparing data
