@@ -84,6 +84,16 @@ NET_INIT=data/imagenet_models/${NET}.v2.caffemodel
 ## Start to Train Faster RCNN On Imagenet!
 Run the **$FRCNN/experiments/scripts/faster_rcnn_end2end_imagenet.sh**.   
 The use of .sh file is just the same as the original [faster rcnn ](https://github.com/rbgirshick/py-faster-rcnn)
+
+## Experiment
+This is the mean/median AP of different iterations.The highest mean AP falls in 90000 iterations.   
+![](https://github.com/andrewliao11/py-faster-rcnn/blob/master/asset/mAP_imagenet.png?raw=true)   
+The original Faster R-CNN states that they can achieve 59.9% mAP on PASCAL VOC 2007, which only contains 20 categories. The result of mine is relatively low compared to the original work. However, this is the trade-off since we increase the diversity of the object categories. My network can achieve 33.1% mAP.   
+So here I present the result of the overlapped category. My model achieves 48.7% mAP from the object category that appears in PASCAL VOC 2007 (12 categories), which is much higher than that of 200 categories.
+![](https://github.com/andrewliao11/py-faster-rcnn/blob/master/asset/mAP_overlap.png?raw=true)
+And I also present the mAP for each category in ImageNet   
+![](https://github.com/andrewliao11/py-faster-rcnn/blob/master/asset/mAP_200.png?raw=true)
+
 ## Demo
 Just run the **demo.py** to visualize pictures! 
 ![demo_02](https://github.com/andrewliao11/py-faster-rcnn/blob/master/tools/output_demo_02.jpg?raw=true)
