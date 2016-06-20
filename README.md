@@ -104,7 +104,6 @@ And I also present the mAP for each category in ImageNet
 ## Demo
 Just run the **demo.py** to visualize pictures! 
 ![demo_02](https://github.com/andrewliao11/py-faster-rcnn/blob/master/tools/output_demo_02.jpg?raw=true)
-![demo_03](https://github.com/andrewliao11/py-faster-rcnn/blob/master/tools/output_demo_03.jpg?raw=true)
 
 ### faster rcnn with tracker on videos
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/wY7LADoEuFs/0.jpg)](http://www.youtube.com/watch?v=wY7LADoEuFs)
