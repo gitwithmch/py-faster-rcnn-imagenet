@@ -111,6 +111,3 @@ Just run the **demo.py** to visualize pictures!
 Original video "https://www.jukinmedia.com/videos/view/5655"
 ## Reference
 [How to train fast rcnn on imagenet](http://sunshineatnoon.github.io/Train-fast-rcnn-model-on-imagenet-without-matlab/)
-
-## Others
-If you have any advance question, feel free to contact me by andrewliao11@gmail.com
