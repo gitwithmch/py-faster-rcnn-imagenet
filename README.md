@@ -1,6 +1,6 @@
 
 # Training Faster RCNN on Imagenet
-
+If you want to know some basic ideas in faster rcnn, try to check [Video Object Detection using Faster R-CNN](http://andrewliao11.github.io/object_detection/faster_rcnn/) out!
 ## preparing data
 
 ```
