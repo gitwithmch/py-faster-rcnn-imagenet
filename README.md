@@ -8,9 +8,9 @@ ILSVRC13
 └─── ILSVRC2013_DET_val
     │   *.JPEG (Image files, ex:ILSVRC2013_val_00000565.JPEG)
 └─── ILSVRC2013_DET_bbox_val
-    |   *.xml (you can find the example from ./misc/ILSVRC2012_val_00037038.xml under this repo)
+    |   *.xml (you can find the example from ./misc/ILSVRC2012_val_00018464.xml under this repo)
 └─── data
-    │   meta_det.mat
+    │   meta_det.mat (To load the category inside, like [here](https://github.com/andrewliao11/py-faster-rcnn-imagenet/blob/master/lib/datasets/imagenet.py#L26))
     └─── det_lists
              │  val1.txt, val2.txt
 ```
