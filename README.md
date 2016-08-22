@@ -8,7 +8,7 @@ ILSVRC13
 └─── ILSVRC2013_DET_val
     │   *.JPEG (Image files, ex:ILSVRC2013_val_00000565.JPEG)
 └─── ILSVRC2013_DET_bbox_val
-    |   *xml (you can find the example from ./misc/ILSVRC2012_val_00037038.xml under this repo)
+    |   *.xml (you can find the example from ./misc/ILSVRC2012_val_00037038.xml under this repo)
 └─── data
     │   meta_det.mat
     └─── det_lists
