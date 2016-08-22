@@ -10,10 +10,11 @@ ILSVRC13
 └─── ILSVRC2013_DET_bbox_val
     |   *.xml (you can find the example from ./misc/ILSVRC2012_val_00018464.xml under this repo)
 └─── data
-    │   meta_det.mat (To load the category inside, like [here](https://github.com/andrewliao11/py-faster-rcnn-imagenet/blob/master/lib/datasets/imagenet.py#L26))
+    │   meta_det.mat 
     └─── det_lists
              │  val1.txt, val2.txt
 ```
+meta_det.mat => Load the category inside, like [here](https://github.com/andrewliao11/py-faster-rcnn-imagenet/blob/master/lib/datasets/imagenet.py#L26/)    
 Load the meta_det.mat file by 
 ```
 classes = sio.loadmat(os.path.join(self._devkit_path, 'data', 'meta_det.mat'))
