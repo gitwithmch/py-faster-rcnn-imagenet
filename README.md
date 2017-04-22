@@ -1,5 +1,7 @@
 
 # Training Faster RCNN on Imagenet
+[![Readme Score](http://readme-score-api.herokuapp.com/score.svg?url=andrewliao11/py-faster-rcnn-imagenet)](http://clayallsopp.github.io/readme-score?url=andrewliao11/py-faster-rcnn-imagenet)
+
 If you want to know some basic ideas in faster rcnn, try to check [Video Object Detection using Faster R-CNN](http://andrewliao11.github.io/object_detection/faster_rcnn/) out!
 
 Feel free to contact me via email, I'll try to give you a hand if I can, lol.
